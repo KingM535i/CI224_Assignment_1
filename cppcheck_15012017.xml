@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.77"/>
+    <errors>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;file&amp;#039; should be passed by reference." verbose="Parameter &amp;#039;file&amp;#039; is passed by value. It could be passed as a (const) reference which is usually faster and recommended in C++.">
+            <location file0="glex-master/src/CubeAsset.cc" file="glex-master\src\CubeAsset.cc" line="79"/>
+        </error>
+        <error id="operatorEq" severity="style" msg="&amp;#039;GameAssetManager::operator=&amp;#039; should return &amp;#039;GameAssetManager &amp;amp;&amp;#039;." verbose="The GameAssetManager::operator= does not conform to standard C/C++ behaviour. To conform to standard C/C++ behaviour, return a reference to self (such as: &amp;#039;GameAssetManager &amp;amp;GameAssetManager::operator=(..) { .. return *this; }&amp;#039;. For safety reasons it might be better to not fix this message. If you think that safety is always more important than conformance then please ignore/suppress this message. For more details about this topic, see the book &amp;quot;Effective C++&amp;quot; by Scott Meyers.">
+            <location file0="glex-master/src/GameAssetManager.cc" file="glex-master\src\GameAssetManager.h" line="27"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;GameWorld&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;GameWorld&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided.">
+            <location file0="glex-master/src/GameWorld.cc" file="glex-master\src\GameWorld.h" line="24"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;window&amp;#039; should be passed by reference." verbose="Parameter &amp;#039;window&amp;#039; is passed by value. It could be passed as a (const) reference which is usually faster and recommended in C++.">
+            <location file0="glex-master/src/main.cc" file="glex-master\src\main.cc" line="37"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;game_world&amp;#039; should be passed by reference." verbose="Parameter &amp;#039;game_world&amp;#039; is passed by value. It could be passed as a (const) reference which is usually faster and recommended in C++.">
+            <location file0="glex-master/src/main.cc" file="glex-master\src\main.cc" line="37"/>
+        </error>
+    </errors>
+</results>
