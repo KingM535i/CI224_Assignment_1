@@ -1,10 +1,13 @@
 # CI224_Assignment_1
-CI224 Assignment 1 coursework repository.
+
+CI224 Games Dev Assignment 1 coursework
 
 Coded and tested with Eclipse C++ version running on Fedora 24
 
-Info copied from original glex-master readme
+Info below copied from original glex-master readme
 ############################################
+
+
 
 Prerequisites
 
