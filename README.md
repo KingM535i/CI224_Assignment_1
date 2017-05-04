@@ -1,6 +1,10 @@
-# CI224_Assignment_1
+# CI224_Assignment_2
 
-CI224 Games Dev Assignment 1 coursework
+CI224 Games Dev Assignment 2 coursework
+
+Branched from Assignment 1 coursework. Original Assignment 2 coursework lost due to OS failure.
+
+https://github.com/KingM535i/CI224_Assignment_1.git
 
 Coded and tested with Eclipse C++ version running on Fedora 24
 
